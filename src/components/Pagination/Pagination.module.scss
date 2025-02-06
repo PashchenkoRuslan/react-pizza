@@ -1,0 +1,26 @@
+.page-item {
+  border: 1px solid #fe5f1e;
+  border-radius: 30px;
+  color: #fe5f1e;
+  cursor: pointer;
+  display: inline-block;
+  height: 45px;
+  line-height: 42px;
+  margin-right: 10px;
+  text-align: center;
+  width: 45px;
+  background: none !important;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.disabled {
+  background-color: red;
+}
+
+.active {
+  background-color: red !important;
+}
