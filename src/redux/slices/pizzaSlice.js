@@ -16,7 +16,7 @@ export const fetchPizzas = createAsyncThunk(
         category > 0 ? `category=${category}` : ""
       }&sortBy=${
         sorting[sortBy]
-      }&page=${currentPage}&limit=${elementOfPagination}${searchItems ? `&title=*ё${searchItems}` : ''}`
+      }&page=${currentPage}&limit=${elementOfPagination}${searchItems ? `&title=*${searchItems}` : ''}`
     );
     return data.items;
   }
